@@ -89,7 +89,7 @@ require_once("../db.php");
                               <td><?php echo $row['city']; ?></td>
                               <td><?php echo $row['state']; ?></td>
                               <td><a href="../uploads/resume/<?php echo $row['resume']; ?>"
-                                  download="<?php echo $row['firstname'] . ' Resume'; ?>"><i
+                                  download="<?php echo $row['firstname'] . ' Resume.pdf'; ?>"><i
                                     class="fa fa-file-pdf-o"></i></a>
                               </td>
                             </tr>
